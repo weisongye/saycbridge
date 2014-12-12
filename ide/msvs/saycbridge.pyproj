@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ed7f6ff7-f120-4389-ab21-7192a0aeb0d7}</ProjectGuid>
+    <ProjectHome>..\..\</ProjectHome>
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="dist\android\res\drawable\icon.png" />
+    <Content Include="dist\android\res\drawable\ic_menu_forward.png" />
+    <Content Include="dist\android\res\drawable\ic_menu_share.png" />
+    <Content Include="dist\crx\icon_128.png" />
+    <Content Include="dist\gae\apple-touch-icon-114x114.png" />
+    <Content Include="dist\gae\apple-touch-icon-57x57.png" />
+    <Content Include="dist\gae\apple-touch-icon-72x72.png" />
+    <Content Include="dist\gae\favicon.ico" />
+    <Content Include="dist\gae\images\android-icon-196x196.png" />
+    <Content Include="dist\gae\images\spinner.gif" />
+    <Content Include="dist\gae\recaps\04-25-13.html" />
+    <Content Include="dist\gae\recaps\06-06.html" />
+    <Content Include="dist\gae\recaps\06-13.html" />
+    <Content Include="dist\gae\recaps\06-20.html" />
+    <Content Include="dist\gae\recaps\06-27.html" />
+    <Content Include="dist\gae\recaps\07-04.html" />
+    <Content Include="dist\gae\recaps\07-11.html" />
+    <Content Include="dist\gae\recaps\07-18.html" />
+    <Content Include="dist\gae\recaps\07-25.html" />
+    <Content Include="dist\gae\recaps\08-01.html" />
+    <Content Include="dist\gae\recaps\08-08.html" />
+    <Content Include="dist\gae\recaps\08-15.html" />
+    <Content Include="dist\gae\recaps\08-22.html" />
+    <Content Include="dist\gae\recaps\08-29.html" />
+    <Content Include="dist\gae\recaps\09-05.html" />
+    <Content Include="dist\gae\recaps\09-12.html" />
+    <Content Include="dist\gae\recaps\09-19.html" />
+    <Content Include="dist\gae\recaps\09-26.html" />
+    <Content Include="dist\gae\recaps\10-03.html" />
+    <Content Include="dist\gae\recaps\10-10.html" />
+    <Content Include="dist\gae\recaps\10-17.html" />
+    <Content Include="dist\gae\recaps\10-31.html" />
+    <Content Include="dist\gae\recaps\11-07.html" />
+    <Content Include="dist\gae\recaps\11-14.html" />
+    <Content Include="dist\gae\recaps\11-21.html" />
+    <Content Include="dist\gae\recaps\bidcard.html" />
+    <Content Include="dist\gae\recaps\recap.css" />
+    <Content Include="dist\gae\recaps\summary.html" />
+    <Content Include="dist\gae\robots.txt" />
+    <Content Include="dist\gae\scripts\qunit.html" />
+    <Content Include="dist\gae\scripts\third_party\bignumber.js" />
+    <Content Include="dist\gae\scripts\third_party\blue\asc.gif" />
+    <Content Include="dist\gae\scripts\third_party\blue\bg.gif" />
+    <Content Include="dist\gae\scripts\third_party\blue\desc.gif" />
+    <Content Include="dist\gae\scripts\third_party\blue\style.css" />
+    <Content Include="dist\gae\scripts\third_party\coffee-script.js" />
+    <Content Include="dist\gae\scripts\third_party\d3.v3.js" />
+    <Content Include="dist\gae\scripts\third_party\d3.v3.min.js" />
+    <Content Include="dist\gae\scripts\third_party\jquery-1.6.2.min.js" />
+    <Content Include="dist\gae\scripts\third_party\jquery.history.js" />
+    <Content Include="dist\gae\scripts\third_party\jquery.tablesorter.min.js" />
+    <Content Include="dist\gae\static\fight.html" />
+    <Content Include="dist\gae\static\offline.html" />
+    <Content Include="dist\gae\static\priorities.html" />
+    <Content Include="dist\gae\stylesheets\explore.css" />
+    <Content Include="dist\gae\stylesheets\hand.css" />
+    <Content Include="dist\gae\templates\analytics.html" />
+    <Content Include="dist\gae\templates\bidder.html" />
+    <Content Include="dist\gae\templates\explore.html" />
+    <Content Include="dist\gae\templates\scores.html" />
+    <Content Include="dist\gae\templates\score_flashcards.html" />
+    <Content Include="dist\gae\templates\unittests.html" />
+    <Content Include="dist\ios\Bridge\apple-touch-icon-114x114.png" />
+    <Content Include="dist\ios\Bridge\apple-touch-icon-57x57.png" />
+    <Content Include="dist\ios\Bridge\apple-touch-icon-72x72.png" />
+    <Content Include="dist\ios\Bridge\loading.html" />
+    <Content Include="dist\ios\Bridge\offline.html" />
+    <Content Include="pr\android_logo.html" />
+    <Content Include="pr\android_logo.png" />
+    <Content Include="pr\android_logo.svg" />
+    <Content Include="pr\android_logo_72.png" />
+    <Content Include="pr\android_screenshot.png" />
+    <Content Include="pr\android_screenshot2.png" />
+    <Content Include="pr\android_screenshot3.png" />
+    <Content Include="pr\apple_logo_512.png" />
+    <Content Include="pr\chrome_promotional.html" />
+    <Content Include="pr\ios_icon.png" />
+    <Content Include="pr\ios_logo.html" />
+    <Content Include="pr\iphone_screenshot_fourth_seat_open.png" />
+    <Content Include="pr\iphone_screenshot_michaels.png" />
+    <Content Include="pr\iphone_screenshot_nt.png" />
+    <Content Include="pr\large_screenshot.png" />
+    <Content Include="pr\logo.html" />
+    <Content Include="pr\promo-440x280.png" />
+    <Content Include="pr\small_tile.png" />
+    <Content Include="scripts\autobid-for-none" />
+    <Content Include="scripts\bidder-fight" />
+    <Content Include="scripts\common-calls" />
+    <Content Include="scripts\explain" />
+    <Content Include="scripts\none-finder" />
+    <Content Include="scripts\rule-for-last-call" />
+    <Content Include="scripts\rules-for" />
+    <Content Include="scripts\test-hand" />
+    <Content Include="scripts\test-sayc" />
+    <Content Include="src\kbb_baseline.txt" />
+    <Content Include="src\z3b_baseline.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dist\gae\appengine_main.py" />
+    <Compile Include="dist\gae\handlers\autobid_handler.py" />
+    <Compile Include="dist\gae\handlers\bidder_handler.py" />
+    <Compile Include="dist\gae\handlers\explore_handler.py" />
+    <Compile Include="dist\gae\handlers\priorities_handler.py" />
+    <Compile Include="dist\gae\handlers\scores_handler.py" />
+    <Compile Include="dist\gae\handlers\score_flashcards_handler.py" />
+    <Compile Include="dist\gae\handlers\unittest_handler.py" />
+    <Compile Include="dist\gae\handlers\__init__.py" />
+    <Compile Include="dist\gae\production_main.py" />
+    <Compile Include="dist\gae\proxy.py" />
+    <Compile Include="dist\gae\standalone_app.py" />
+    <Compile Include="dist\gae\standalone_main.py" />
+    <Compile Include="scripts\find_src.py" />
+    <Compile Include="scripts\saycbot.py" />
+    <Compile Include="src\core\board.py" />
+    <Compile Include="src\core\call.py" />
+    <Compile Include="src\core\callexplorer.py" />
+    <Compile Include="src\core\callhistory.py" />
+    <Compile Include="src\core\card.py" />
+    <Compile Include="src\core\deal.py" />
+    <Compile Include="src\core\hand.py" />
+    <Compile Include="src\core\position.py" />
+    <Compile Include="src\core\suit.py" />
+    <Compile Include="src\core\tests\test_board.py" />
+    <Compile Include="src\core\tests\test_call.py" />
+    <Compile Include="src\core\tests\test_callexplorer.py" />
+    <Compile Include="src\core\tests\test_callhistory.py" />
+    <Compile Include="src\core\tests\test_deal.py" />
+    <Compile Include="src\core\tests\test_hand.py" />
+    <Compile Include="src\core\tests\test_position.py" />
+    <Compile Include="src\core\tests\__init__.py" />
+    <Compile Include="src\core\__init__.py" />
+    <Compile Include="src\factory.py" />
+    <Compile Include="src\gib\gib.py" />
+    <Compile Include="src\gib\__init__.py" />
+    <Compile Include="src\tests\harness.py" />
+    <Compile Include="src\tests\test_sayc.py" />
+    <Compile Include="src\tests\__init__.py" />
+    <Compile Include="src\third_party\memoized.py" />
+    <Compile Include="src\third_party\outputcapture.py" />
+    <Compile Include="src\third_party\__init__.py" />
+    <Compile Include="src\z3b\bidder.py" />
+    <Compile Include="src\z3b\cappelletti.py" />
+    <Compile Include="src\z3b\constraints.py" />
+    <Compile Include="src\z3b\enum.py" />
+    <Compile Include="src\z3b\forcing.py" />
+    <Compile Include="src\z3b\model.py" />
+    <Compile Include="src\z3b\natural.py" />
+    <Compile Include="src\z3b\ordering.py" />
+    <Compile Include="src\z3b\preconditions.py" />
+    <Compile Include="src\z3b\prettymodel.py" />
+    <Compile Include="src\z3b\rules.py" />
+    <Compile Include="src\z3b\rule_compiler.py" />
+    <Compile Include="src\z3b\sayc.py" />
+    <Compile Include="src\z3b\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\" />
+    <Folder Include="dist\android\" />
+    <Folder Include="dist\android\res\" />
+    <Folder Include="dist\android\res\drawable" />
+    <Folder Include="dist\crx" />
+    <Folder Include="dist\gae" />
+    <Folder Include="dist\gae\handlers" />
+    <Folder Include="dist\gae\images" />
+    <Folder Include="dist\gae\recaps" />
+    <Folder Include="dist\gae\scripts" />
+    <Folder Include="dist\gae\scripts\third_party" />
+    <Folder Include="dist\gae\scripts\third_party\blue" />
+    <Folder Include="dist\gae\static" />
+    <Folder Include="dist\gae\stylesheets" />
+    <Folder Include="dist\gae\templates" />
+    <Folder Include="dist\ios\" />
+    <Folder Include="dist\ios\Bridge" />
+    <Folder Include="pr" />
+    <Folder Include="scripts" />
+    <Folder Include="src" />
+    <Folder Include="src\core" />
+    <Folder Include="src\core\tests" />
+    <Folder Include="src\gib" />
+    <Folder Include="src\tests" />
+    <Folder Include="src\third_party" />
+    <Folder Include="src\z3b" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

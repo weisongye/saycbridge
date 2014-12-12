@@ -1,0 +1,11 @@
+*/GeneratedFiles
+*/Debug
+*/Release
+Debug
+Release
+
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.tmp
